@@ -1,5 +1,5 @@
 #include "canvas/include/canvas.h"
-#include "geometry_processing/include/vertex_shading.h"
+#include "obj/include/objpar_wrapper.h"
 
 int main(void) {
   canvas the_canvas = init_canvas(1000, 1000, MIN_COL, MIN_COL, MIN_COL);
