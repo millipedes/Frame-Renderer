@@ -8,6 +8,8 @@ set(SRC_FILES
   ${SRC_DIR}/canvas/pixel.c
   ${SRC_DIR}/geometry_processing/vertex_shading.c
   ${SRC_DIR}/obj/objpar.c
+  ${SRC_DIR}/obj/mmtl_parser.c
+  ${SRC_DIR}/obj/objpar_wrapper.c
 )
 
 # Include directories
